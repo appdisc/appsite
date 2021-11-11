@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers" lang="zxx"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>相盒-隐藏相册加密空间</title>
+    <meta name="description" content="相盒是一款隐藏照片、隐藏视频和加密照片的加密相册应用，直接对系统相册原生照片加密而不会删除原照片。采用多重加密措施保护隐私，防止他人看到。">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="https://www.wecode6.com/photosbox">
+    <meta property="og:title" content="相盒-隐藏相册加密空间">
+    <meta property="og:description" content="相盒是一款隐藏照片、隐藏视频和加密照片的加密相册应用，直接对系统相册原生照片加密而不会删除原照片。采用多重加密措施保护隐私，防止他人看到。">
+    <meta property="og:image" content="https://www.wecode6.com/photosbox/imgs/logo.png">
+    <link rel="icon" type="image/png" href="imgs/logo.png">
+    <!-- For apple devices -->
+    <link rel="apple-touch-icon" type="image/png" href="imgs/logo.png">
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="./common/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./common/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./common/css/magnific-popup.css">
+    <link rel="stylesheet" href="./common/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./common/css/themify-icons.css">
+    <link rel="stylesheet" href="./common/css/nice-select.css">
+    <link rel="stylesheet" href="./common/css/flaticon.css">
+    <link rel="stylesheet" href="./common/css/gijgo.css">
+    <link rel="stylesheet" href="./common/css/animate.min.css">
+    <link rel="stylesheet" href="./common/css/slick.css">
+    <link rel="stylesheet" href="./common/css/slicknav.css">
+    <link rel="stylesheet" href="./common/css/style.css">
+    <!-- <link rel="stylesheet" href="./common/css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <!--header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-2">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-7">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="index.html">home</a></li>
+                                        <li><a href="features.html">Features</a></li>
+                                        <li><a href="Pricing.html">Pricing</a></li>
+                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="blog.html">blog</a></li>
+                                                <li><a href="single-blog.html">single-blog</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                 <li><a href="elements.html">elements</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                            <div class="Appointment">
+                                <div class="book_btn d-none d-lg-block">
+                                    <a  href="#">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header-->
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-7 col-md-6">
+                        <div class="slider_text ">
+                            <h3 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s;">相盒 <br>
+                                Photo Box</h3>
+                            <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s;">Safely lock your photos and videos,hide photos<br></p>
+                            <div class="app_download wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s;">
+                                <a href="#">
+                                        <img src="imgs/app.svg" alt="">
+                                </a>
+                                <a href="#" style="display:none;">
+                                        <img src="imgs/play.svg" alt="">
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-md-6">
+                        <div class="phone_thumb wow fadeInDown" data-wow-duration="1.1s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 1.1s; animation-delay: 0.2s;">
+                            <img src="imgs/phone.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+    <!-- service_area  -->
+    <!--div class="service_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center  wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
+                        <h3>Save your time to <br>
+                                using applab</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="single_service text-center wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s">
+                        <div class="thumb">
+                                <img src="img/icon/2.svg" alt="">
+                        </div>
+                        <h3>Manage team in <br>
+                                One Place</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                        <div class="single_service text-center wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".5s">
+                                <div class="thumb">
+                                        <img src="img/icon/1.svg" alt="">
+                                </div>
+                                <h3>All-powerful Pointing <br> 
+                                        has no control</h3>
+                            </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+
+                            <div class="single_service text-center wow fadeInUp " data-wow-duration=".8s" data-wow-delay=".6s">
+                                <div class="thumb">
+                                        <img src="img/icon/3.svg" alt="">
+                                </div>
+                                <h3>Establish a solid online
+                                        presence</h3>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div-->
+    <!--/ service_area  -->
+
+    <!-- service_area_2  -->
+    <!--div class="service_area_2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".5s">
+                    <div class="man_thumb">
+                        <img src="img/ilstrator_img/man_walk.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-lg-6 col-md-6 ">
+                    <div class="mobile_screen wow fadeInRight" data-wow-duration=".8s" data-wow-delay=".5s">
+                        <img src="img/ilstrator_img/mobile_screen.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="service_content_wrap">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="single_service  wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
+                            <span>01</span>
+                            <h3>Sign Up for free</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="single_service  wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s">
+                            <span>02</span>
+                            <h3>Make your profile</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4  wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".5s">
+                        <div class="single_service">
+                            <span>03</span>
+                            <h3>Enjoy the app</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div-->
+    <!--/ service_area_2  -->
+
+
+    <!-- about  -->
+    <div class="features_area ">
+        <div class="container">
+            <div class="features_main_wrap">
+                <div class="row  align-items-center">
+                        <div class="col-xl-5 col-lg-5 offset-xl-1 offset-lg-1 col-md-6">
+                            <div class="about_image wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.4s; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                <img src="imgs/phone_cloud.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="features_info">
+                                <h3 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s;">Cloud Backup
+                                        </h3>
+                                <p class="wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.4s;">Using cloud storage like DropBox and Google Drive is a great way to make sure your files are backed up and accessible from any device.</p>
+                                <ul>
+                                    <li class="wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s;"> Our "Secret Photo Album Vault Lock" app serves as a central hub for all your cloud services and local files. </li>
+                                    <li class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;"> It's the easiest way to use DropBox, Google Drive, Box, and OneDrive on your device to access all your files from one app. </li>
+                                    <li class="wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 0.9s; animation-delay: 0.7s;"> You can transfer(upload/download) the files between our app and the cloud storage.</li>
+                                </ul>
+        
+                                <!--div class="about_btn wow fadeInUp" data-wow-duration=".10s" data-wow-delay=".8s" >
+                                    <a class="boxed-btn4" href="">Download Now</a>
+                                </div-->
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="features_main_wrap">
+                    <div class="row  align-items-center">
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <div class="features_info2">
+                                    <h3>Wi-Fi Transfer</h3>
+                                    <p>Transfer files between your phone and PC, Mac with our super-fast Wi-Fi Transfer technology. Just make sure both of your devices are in the same Wi-Fi network.
+                                      </p>
+                                    <!--div class="about_btn">
+                                        <a class="boxed-btn4" href="">Download Now</a>
+                                    </div-->
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 offset-xl-2 offset-lg-2 offset-md-1 col-md-6 ">
+                                <div class="about_draw wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s;">
+                                    <img src="imgs/wifi_transfer.jpg" alt="">
+                                </div>
+                            </div>
+                    </div>
+            </div>
+            <div class="features_main_wrap">
+                    <div class="row  align-items-center">
+                            <div class="col-xl-5 col-lg-5 offset-xl-1 offset-lg-1 col-md-6">
+                                <div class="about_image wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.4s; animation-delay: 0.3s;">
+                                    <img src="imgs/nearby_drop.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="features_info">
+                                    <h3 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s;">Nearby Drop</h3>
+                                    <p class="wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.4s;">Share files with nearby devices</p>
+                                    <ul>
+                                        <li class="wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s;">
+                                            Think of it as an AirDrop on steroids.
+                                        </li>
+                                        <li class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s;">
+                                            Now you can instantly send your photos, videos or entire folders to a nearby iPhone or iPad.
+                                        </li>
+                                        <li class="wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 0.9s; animation-delay: 0.7s;">
+                                            And no worries: the file structure in your folder will remain the same.
+                                        </li>
+                                    </ul>
+            
+                                    <!--div class="about_btn wow fadeInUp" data-wow-duration=".10s" data-wow-delay=".8s" >
+                                        <a class="boxed-btn4" href="">Download Now</a>
+                                    </div-->
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+    <!--/ about  -->
+    <!-- testmonial_area  -->
+    <!--div class="testmonial_area">
+        <div class="container">
+            <div class="col-xl-12">
+                <div class="testmonial_active owl-carousel">
+                    <div class="single_testmonial text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
+                        <div class="section_title">
+                            <h3>Cloud Services
+                                <br>
+                                Cloud Services
+                            </h3>
+                        </div>
+                        <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>
+                                tempor incididunt labore et dolore magna aliqua <br>
+                                quis ipsum suspendisse ultrices.
+                        </p>
+                        <div class="rating_author">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span>
+                                    - Robert Smile
+                            </span>
+                        </div>
+                    </div>
+                    <div class="single_testmonial text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
+                        <div class="section_title">
+                            <h3>Review from our <br>
+                                    regular users</h3>
+                        </div>
+                        <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>
+                                tempor incididunt labore et dolore magna aliqua <br>
+                                quis ipsum suspendisse ultrices.
+                        </p>
+                        <div class="rating_author">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span>
+                                    - Robert Smile
+                            </span>
+                        </div>
+                    </div>
+                    <div class="single_testmonial text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
+                        <div class="section_title">
+                            <h3>Review from our <br>
+                                    regular users</h3>
+                        </div>
+                        <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>
+                                tempor incididunt labore et dolore magna aliqua <br>
+                                quis ipsum suspendisse ultrices.
+                        </p>
+                        <div class="rating_author">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span>
+                                    - Robert Smile
+                            </span>
+                        </div>
+                    </div>
+                    <div class="single_testmonial text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
+                        <div class="section_title">
+                            <h3>Review from our <br>
+                                    regular users</h3>
+                        </div>
+                        <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>
+                                tempor incididunt labore et dolore magna aliqua <br>
+                                quis ipsum suspendisse ultrices.
+                        </p>
+                        <div class="rating_author">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span>
+                                    - Robert Smile
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div-->
+    <!--/ testmonial_area  -->
+
+    <!-- prising_area  -->
+    <!--div class="prising_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+                        <h3>Unlock full Power</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit sed do eiusmod <br> tempor incididunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters align-items-center">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_prising text-center wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".8s">
+                        <div class="prising_header d-flex justify-content-between">
+                            <h3>Basic</h3>
+                            <span>$06</span>
+                        </div>
+                        <ul>
+                            <li>One User</li>
+                            <li>1000 ui elements</li>
+                            <li>Webmail Support</li>
+                            <li>100GB Cloud Storage</li>
+                        </ul>
+                        <div class="prising_bottom">
+                            <a href="#" class="get_now prising_btn">Get Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_prising text-center wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".6s">
+                        <div class="prising_header d-flex justify-content-between pink_header">
+                            <h3>Team</h3>
+                            <span>$06</span>
+                        </div>
+                        <ul>
+                            <li>One User</li>
+                            <li>1000 ui elements</li>
+                            <li>Webmail Support</li>
+                            <li>100GB Cloud Storage</li>
+                            <li>Unlimited Users Limit</li>
+                        </ul>
+                        <div class="prising_bottom">
+                            <a href="#" class="get_now prising_btn">Get Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_prising text-center wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".8s">
+                        <div class="prising_header d-flex justify-content-between green_header">
+                            <h3>Business</h3>
+                            <span>$06</span>
+                        </div>
+                        <ul>
+                            <li>One User</li>
+                            <li>1000 ui elements</li>
+                            <li>Webmail Support</li>
+                            <li>100GB Cloud Storage</li>
+                        </ul>
+                        <div class="prising_bottom">
+                            <a href="#" class="get_now prising_btn">Get Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div-->
+    <!--/ prising_area  -->
+
+    <!-- productivity_area  -->
+    <!--div class="productivity_area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-7 col-md-12 col-lg-6">
+                    <h3 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">Get start from now <br>
+                            and increase productivity</h3>
+                </div>
+                <div class="col-xl-5 col-md-12 col-lg-6">
+                    <div class="app_download wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
+                        <a href="#" >
+                                <img src="img/ilstrator/app.svg" alt="">
+                        </a>
+                        <a href="#">
+                                <img src="img/ilstrator/play.svg" alt="">
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div-->
+    <!--/ productivity_area  -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 col-lg-4">
+                        <div class="footer_widget">
+                            <div class="footer_logo">
+                                <a href="">
+                                    <img src="imgs/logo.png" alt="" width="60px">
+                                </a>
+                            </div>
+                            <h3 class="footer_title">
+                                相盒（Photo Box）
+                            </h3> 
+                            <ul>
+                                <li><a href="privacy/privacyen.html">Privacy Policy</a></li>
+                                <li><a href="terms/usertermsen.html">Terms of Use</a></li>
+                            </ul>
+                            <!--div class="socail_links">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-twitter-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div-->
+
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-4 col-md-4 col-lg-4 offset-xl-4 offset-md-4 offset-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                    Contact
+                            </h3>
+                            <ul>
+                                <li>E-mail: miluoren@hotmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            Copyright © 相盒(Photo Box), Inc.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+    <!-- JS here -->
+    <script src="./common/js/modernizr-3.5.0.min.js"></script>
+    <script src="./common/js/jquery-1.12.4.min.js"></script>
+    <script src="./common/js/popper.min.js"></script>
+    <script src="./common/js/bootstrap.min.js"></script>
+    <script src="./common/js/owl.carousel.min.js"></script>
+    <script src="./common/js/isotope.pkgd.min.js"></script>
+    <script src="./common/js/ajax-form.js"></script>
+    <script src="./common/js/waypoints.min.js"></script>
+    <script src="./common/js/jquery.counterup.min.js"></script>
+    <script src="./common/js/imagesloaded.pkgd.min.js"></script>
+    <script src="./common/js/scrollIt.js"></script>
+    <script src="./common/js/jquery.scrollUp.min.js"></script>
+    <script src="./common/js/wow.min.js"></script>
+    <script src="./common/js/nice-select.min.js"></script>
+    <script src="./common/js/jquery.slicknav.min.js"></script>
+    <script src="./common/js/jquery.magnific-popup.min.js"></script>
+    <script src="./common/js/plugins.js"></script>
+    <script src="./common/js/gijgo.min.js"></script>
+
+    <!--contact js-->
+    <script src="./common/js/contact.js"></script>
+    <script src="./common/js/jquery.ajaxchimp.min.js"></script>
+    <script src="./common/js/jquery.form.js"></script>
+    <script src="./common/js/jquery.validate.min.js"></script>
+    <script src="./common/js/mail-script.js"></script>
+
+    <script src="./common/js/main.js"></script>
+
+
+<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: none;"><i class="fa fa-angle-double-up"></i></a></body></html>
